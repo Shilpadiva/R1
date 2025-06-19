@@ -90,7 +90,4 @@ a.contextclick();
 
 Selenium is over But yet not
 
-
-
-aert
-Wait and watch
+Bye good night
