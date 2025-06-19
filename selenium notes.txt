@@ -1,0 +1,89 @@
+webdriver
+-------------------------------------
+close
+get
+gettile
+getcurrenturl
+getpagesource
+getwindowhandle
+getwindowhandles
+manage
+navigate
+switchto
+quite
+
+
+webelement
+-----------------------------------------
+click
+clear
+getattribute
+getcssvalue
+gettagname
+gettext
+isenabled
+isselected
+isDisplayed
+getlocation
+getreact
+getsize
+submit
+sendkeys
+
+handling multiple elements
+	*findelements
+
+list box
+select s=new select();
+  *single select listbox
+	*selectbyvalue
+	*selectbyindex
+	*selectbyvisibletext
+  *Multi select listbox
+	*deselect all	
+	*getfirstselected option
+	*getAllselected options
+	*getoptions
+	*ismultpile
+
+Array
+add,get,set,size,remove,clear
+  *insertion order will be matained
+  *Duplicate values are allowed
+  *sorting are possible
+  *Ex:Arraylist<string>al=new Arraylist<String>()
+
+Hashset
+add,contains,remove,clear,size
+
+pop-us
+
+Alert pop,confirmation pop,javascript pop
+	alert a=driver.switchto().alert();
+	a.accept,a.dismiss,a.sendkeys,a.gettext
+calender pop,hidden division pop
+	
+file upload pop
+	file f=new file();
+	f.getabsolutepath();
+	
+file download pop
+	robot class
+	  robot r=new robot();
+	  r.keypress(keyevent.vk_i);
+print pop
+notification pop
+	chromeoptions ch=new chromeoptions();
+	ch.addarguments("Disabled_notifiv=cation");
+aunthentication pop
+	For this pop we can give the name and psd in link itself
+childwindow pop
+	getwindowhandle
+	getwindowhandles
+
+Mouse action
+Actions a=new Actions();
+a.movetoelement().perform();
+a.draganddrop().perform();
+a.contextclick();
+
